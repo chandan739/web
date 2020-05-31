@@ -1,0 +1,259 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;/*size of the menu bar box*/
+}
+body
+{
+    background-image: url(Amazing-Bicycle-Background.jpg);/*copy the backround image*/
+    background-size: cover;/*Resize the background image to cover the entire container, even if it has to stretch the image or cut a little bit off one of the edges*/
+    background-position: 0px 5px ;/*position of the image or we can also give center left right*/
+    box-sizing: border-box;/*size of the box like square or rectangle...*/
+    font-family: Monospace;
+}
+.menu-bar
+{
+    background:rgb(0,82,100);/*css color picker*/
+    text-align: center;
+}
+.menu-bar ul
+{
+    display:inline-flex;/*to display the data in single line*/
+    list-style: none;/*default it takes square that's why we put none*/
+    color:#fff;
+}
+.menu-bar ul li
+{
+    width:100px;/*spacing the data*/
+    margin:15px;/*size of the menu bar margin*/
+    padding: 15px;/*padding is like an changing the size*/
+}
+.menu-bar ul li a /* for ankle tag it will change the color*/
+{
+    text-decoration: none;/* to remove the line in the text*/
+    color: #fff;
+
+}
+
+
+
+.active, .menu-bar ul li:hover
+{
+    background: #2bab0d;/*css color*/
+    border-radius: 3px;/*it will add square bracket to link or text*/
+}
+
+
+.active1, .menu-bar ul li:hover
+{
+    background: #2bab0d;
+    border-radius: 3px;/*it will add square bracket to link or text*/
+}
+.sub-1
+{
+    display: none;
+}
+.menu-bar ul li:hover .sub-1/* over write */
+{/*it display in horizontal*/
+    display: block;
+    position: absolute;
+    background: rgb(0,82,100);
+    margin-top: 15px;
+    margin-bottom: -15px
+}
+.menu-bar ul li:hover .sub-1 ul/*now it display in vertical*/
+{
+    display: block;
+    margin: 10px;
+}
+.menu-bar ul li:hover .sub-1 ul li
+{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    text-align: left;
+}
+.menu-bar ul li:hover .sub-1 ul li:last-child
+{/*to remove the border from last sub menu*/
+    border-bottom: none;
+}
+
+
+.active2, .menu-bar ul li:hover
+{
+    background: #2bab0d;
+    border-radius: 3px;/*it will add square bracket to link or text*/
+}
+.sub-2
+{
+    display: none;
+}
+.menu-bar ul li:hover .sub-2/* over write */
+{/*it display in horizontal*/
+    display: block;
+    position: absolute;
+    background: rgb(0,82,100);
+    margin-top: 15px;
+    margin-bottom: -15px
+}
+.menu-bar ul li:hover .sub-2 ul/*now it display in vertical*/
+{
+    display: block;
+    margin: 10px;
+}
+.menu-bar ul li:hover .sub-2 ul li
+{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    text-align: left;
+}
+.menu-bar ul li:hover .sub-2 ul li:last-child
+{/*to remove the border from last sub menu*/
+    border-bottom: none;
+}
+.menu-bar ul li:hover .sub-2 ul li a:hover
+{/*color on sub menu*/
+    color: #000000;
+}
+
+
+.active3, .menu-bar ul li:hover
+{
+    background: #2bab0d;
+    border-radius: 3px;/*it will add square bracket to link or text*/
+}
+.sub-3
+{
+    display: none;
+}
+.menu-bar ul li:hover .sub-3/* over write */
+{/*it display in horizontal*/
+    display: block;
+    position: absolute;
+    background: rgb(0,82,100);
+    margin-top: 15px;
+    margin-bottom: -15px
+}
+.menu-bar ul li:hover .sub-3 ul/*now it display in vertical*/
+{
+    display: block;
+    margin: 10px;
+}
+.menu-bar ul li:hover .sub-3 ul li
+{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    text-align: left;
+}
+.menu-bar ul li:hover .sub-3 ul li:last-child
+{/*to remove the border from last sub menu*/
+    border-bottom: none;
+}
+
+
+.active4, .menu-bar ul li:hover
+{
+    background: #2bab0d;
+    border-radius: 3px;/*it will add square bracket to link or text*/
+}
+.sub-4
+{
+    display: none;
+}
+.menu-bar ul li:hover .sub-4/* over write */
+{/*it display in horizontal*/
+    display: block;
+    position: absolute;
+    background: rgb(0,82,100);
+    margin-top: 15px;
+    margin-bottom: -15px
+}
+.menu-bar ul li:hover .sub-4 ul/*now it display in vertical*/
+{
+    display: block;
+    margin: 10px;
+}
+.menu-bar ul li:hover .sub-4 ul li
+{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    text-align: left;
+}
+.menu-bar ul li:hover .sub-4 ul li:last-child
+{/*to remove the border from last sub menu*/
+    border-bottom: none;
+}
+
+
+.active5, .menu-bar ul li:hover
+{
+    background: #2bab0d;
+    border-radius: 3px;/*it will add square bracket to link or text*/
+}
+.sub-5
+{
+    display: none;
+}
+.menu-bar ul li:hover .sub-5/* over write */
+{/*it display in horizontal*/
+    display: block;
+    position: absolute;
+    background: rgb(0,82,100);
+    margin-top: 15px;
+    margin-bottom: -15px
+}
+.menu-bar ul li:hover .sub-5 ul/*now it display in vertical*/
+{
+    display: block;
+    margin: 10px;
+}
+.menu-bar ul li:hover .sub-5 ul li
+{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    text-align: left;
+}
+.menu-bar ul li:hover .sub-5 ul li:last-child
+{/*to remove the border from last sub menu*/
+    border-bottom: none;
+}
+
+
+.active6, .menu-bar ul li:hover
+{
+    background: #2bab0d;
+    border-radius: 3px;/*it will add square bracket to link or text*/
+}
+.sub-6
+{
+    display: none;
+}
+.menu-bar ul li:hover .sub-6/* over write */
+{/*it display in horizontal*/
+    display: block;
+    position: absolute;
+    background: rgb(0,82,100);
+    margin-top: 15px;
+    margin-bottom: -15px
+}
+.menu-bar ul li:hover .sub-6 ul/*now it display in vertical*/
+{
+    display: block;
+    margin: 10px;
+}
+.menu-bar ul li:hover .sub-6 ul li
+{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    text-align: left;
+}
+.menu-bar ul li:hover .sub-6 ul li:last-child
+{/*to remove the border from last sub menu*/
+    border-bottom: none;
+}
